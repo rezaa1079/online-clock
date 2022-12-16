@@ -1,0 +1,47 @@
+body{
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  height: 100vh;
+}
+#neon-container-content{
+  position: relative;
+  min-width: 300px;
+  height: 300px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  place-items: center;
+}
+#neon-container-content #clock{
+  position: relative;
+  min-width:100%;
+  height: 50%;
+  display:flex;
+  justify-content: center;
+  place-items: center;
+  font-family: font;
+  text-shadow: 5px 5px 5px #0e5d75;
+  filter: drop-shadow(0 0 30px #093948) drop-shadow(0 0 70px #093948) drop-shadow(0 0 100px #093948ad) drop-shadow(0 0 160px #093948b6) drop-shadow(0 0 200px #09394894) drop-shadow(0 0 250px #09394880) drop-shadow(0 0 350px #0939487a);
+  color:#D7F4FE;
+  font-size: 80px;
+}
+#neon-container-content>span{
+  font-family: font1;
+  font-size: 20px;
+  color:white;
+}
+
+
+@font-face {
+  font-family: font;
+  src: url(../Orbitron-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: font1;
+  src: url(../IRANSansDN-Bold.ttf);
+}
